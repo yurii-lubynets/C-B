@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<title>Test Case</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display" />
+	<link rel="stylesheet" href="assets/libs/normalize.css" />
+	<link rel="stylesheet" href="assets/libs/bootstrap.css" />
+	<link rel="stylesheet" href="style.css" />	
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+      	<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".top-menu" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="navbar-collapse collapse top-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#help">Help</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">dollars<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#dollars">dollars</a></li>
+                <li><a href="#euro">euro</a></li>
+                <li><a href="#gbp">gbp</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"></li>
+                <li><a href="#Other">other</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-border">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">EN<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#en">EN</a></li>
+                <li><a href="#ger">GER</a></li>
+                <li><a href="#rus">RUS</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"></li>
+                <li><a href="#other">other</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- static navbar -->
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"  href="#Home">C&amp;B</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse text-center">
+          <ul class="nav navbar-nav navbar-nav--tonull">
+            <li><a href="#home">home</a></li>
+            <li class = "active"><a href="#catalog">catalog</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a id = "navbar-nav--color" href="#sale">sale</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="#yourbag">your bag</a></li>
+          	<li><a  id = "num-item" href="#num_item">2</a></li>
+            <li class="dropdown dropdown-search">
+            	<a href="#" class="" data-toggle="dropdown"><img src="assets/images/search-icon.png" alt=""></a>
+            	<div class="dropdown-menu">
+            		<input class="dropdown-search-input" placeholder="search" type="search" name="search" id="search">
+            	</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Catalog menu -->
+    <section class="jumbotron text-center navbar navbar-default">
+    	<div class="container">
+        	<h1 class="jumbotron-heading">Catalog</h1>
+          		<ul class="nav navbar-nav navbar-nav--tonull">
+            		<li class="active"><a href="#all">all</a></li>
+            		<li><a href="#t-shirts">t-shirts</a></li>
+            		<li><a href="#sweaters">sweaters</a></li>
+            		<li><a href="#shorts">shorts</a></li>
+            		<li><a href="#jackets">jackets</a></li>
+            		<li><a href="#accessoires">accessoires</a></li>
+          		</ul>
+      </div>
+    </section>
+
+    <!-- Catalog items -->
+    <div class="container text-center">
+        <!-- Projects Row -->
+        <div class="row row--center">
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/printed_swimsuit.png" alt=""></a>
+                <p class="card-text">Printed swimsuit</p>
+                <p class="card-text card-text-price">$23</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/jogging_bermuda_shorts.png" alt=""></a>
+                <p class="card-text">Jogging bermuda shorts</p>
+                <p class="card-text card-text-price card-text-price--color"><strike>$36</strike> $12</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <button class = "btn btn-primary portfolio-button_new" type="button">new</button>
+                <a href="#" >
+                	<img class="img-responsive bg-success" src="assets/images/basic_beach_flip_flops.png" alt="">
+                	
+                </a>
+                <p class="card-text">Basic beach flip flops</p>
+                <p class="card-text card-text-price">$9</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/black_sunglasses.png" alt=""></a>
+                <p class="card-text">Black sunglasses</p>
+                <p class="card-text card-text-price">$29</p>
+            </div>
+        </div><!-- /.row -->
+        <!-- Projects Row -->
+        <div class="row row--center">
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/long_sleeved_twill_shirt.png" alt=""></a>
+                <p class="card-text">Long sleeved twill shirt</p>
+                <p class="card-text card-text-price">$20</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/basic_swimsuit.png" alt=""></a>
+                <p class="card-text">Basic swimsuit</p>
+                <p class="card-text card-text-price">$36</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/bleached_shorts.png" alt=""></a>
+                <p class="card-text">Bleached shorts</p>
+                <p class="card-text card-text-price">$12</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#"><img class="img-responsive bg-success" src="assets/images/t-shirt_with_lower_panel.png" alt=""></a>
+                <p class="card-text">T-shirt with lower panel</p>
+                <p class="card-text card-text-price card-text-price--color"><strike>$32</strike> $12</p>
+            </div>
+        </div><!-- /.row -->
+        <!-- Pagination -->
+        <div class="row text-center row-position">
+            <div class="col-lg-12">
+                <a href="#">load more...</a>
+            </div>
+        </div><!-- /.row -->
+    </div>
+
+	<!-- Footer -->
+	<footer>
+
+		<!-- Footer-Mail -->
+		<div class="footer-mailchimp text-center footer-mailchimp-position">
+			<div class="container">
+				<h5 class = "text_format5">subscribe</h5>
+				<h2 class = "text_format2">Stay updated on news</h2>
+				<div class="subscribe">
+					<form class="form-inline" method="post" >
+						<div class="form-group">
+            				<input type="text" name="email" placeholder="Your email address" class="subscribe-email subscribe-email--color form-control" id="subscribe-email"/>
+        				</div>
+					</form>
+					<div class="success-message"></div>
+					<div class="error-message"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer menu -->
+		<div class="footer-main navbar-default footer-main-position">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bottom-menu" aria-expanded="false" aria-controls="navbar">
+	            		<span class="sr-only">Toggle navigation</span>
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	          		</button>
+	          		<a class="navbar-brand" href="#Home">C&amp;B</a>
+				</div>
+	        	<div class="navbar-collapse text-center bottom-menu">
+	          		<ul class="nav navbar-nav navbar-nav-position_menu navbar-nav--tonull">
+			            <li><a href="#home">home</a></li>
+			            <li><a href="#catalog">catalog</a></li>
+			            <li><a href="#news">news</a></li>
+			            <li><a href="#sale">sale</a></li>
+			            <li><a href="#about">about</a></li>
+			            <li><a href="#contact">Contact</a></li>
+			            <li>&copy;2010-2016 All rights reserved</li>
+	          		</ul>
+	        	</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+	</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap.min.js"></script>
+    <script>
+    	$(".dropdown-menu li a").click(function(){
+        		var selText = $(this).text();
+        		console.dir(this)
+        		$(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+    			});
+    </script>
+    <script>
+    	var newRow = "";
+    </script>
+</body>
+</html>

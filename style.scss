@@ -1,0 +1,224 @@
+a {
+  text-transform: uppercase;
+  font-family: Lato sans-serif;
+  font-size: 12px;
+  color: #777;
+  border: 2px solid transparent;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.text_format2 {
+  font-size: 42px;
+  font-family: bold Lato serif;
+}
+
+.row-position {
+  padding-top: 40px;
+}
+
+.footer-mailchimp-position {
+  margin-top: 55px;
+}
+
+.footer-main-position {
+  padding-top: 20px;
+}
+
+.text_format5 {
+  text-transform: uppercase;
+  font-family: Lato sans-serif;
+  font-size: 14px;
+  color: #777;
+  border: 2px solid transparent;
+}
+
+.dropdown-border {
+  border-left: 1px solid #e7e7e7;
+}
+
+.navbar-nav--tonull {
+  display: inline-block;
+  float: none;
+}
+
+.row--center {
+  display: inline-block;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: Lato serif;
+}
+
+.card-text-price, strike {
+  color: #777;
+}
+
+.card-text-price--color {
+  color: red;
+}
+
+.portfolio-button_new {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  border-radius: 27px;
+  background: #248ddc;
+  color: white;
+  border: none;
+}
+
+.navbar-fixed-top li > a {
+  margin: 13px 15px;
+}
+
+.navbar-static-top li > a {
+  margin: 12px 40px;
+}
+
+.navbar-right li > a {
+  margin: 13px 9px;
+}
+
+.jumbotron li > a {
+  margin: 10px 30px;
+}
+
+.footer-main li > a {
+  margin: 20px 40px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: black;
+  border-bottom: 2px solid #248ddc;
+  &:hover {
+    background-color: transparent;
+    color: black;
+    border-bottom: 2px solid #248ddc;
+  }
+}
+
+.nav > li > a {
+  padding: 0;
+  &:hover, &:active {
+    background-color: transparent;
+    color: black;
+    border-bottom: 2px solid #248ddc;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav > .active > a {
+    border-bottom: 2px solid transparent;
+    &:hover {
+      border-bottom: 2px solid transparent;
+    }
+  }
+  .nav > li > a {
+    &:hover, &:active {
+      border-bottom: 2px solid transparent;
+    }
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 56px;
+  font-family: bold Playfair Display serif;
+}
+
+.jumbotron {
+  padding-bottom: 0;
+  border: none;
+  background: #FFF;
+}
+
+.navbar-default {
+  background: #FFF;
+}
+
+.jumbotron-heading {
+  font-size: 36px;
+  font-family: bold Playfair Display serif;
+  padding-bottom: 30px;
+}
+
+.navbar-static-top {
+  margin-top: 51px;
+  padding: 30px 0;
+}
+
+.footer-mailchimp {
+  color: white;
+  height: 288px;
+  background: url(assets/images/layer.png) no-repeat, #1f87da;
+  padding: 50px 0;
+}
+
+.footer-main .navbar-nav li a {
+  color: black;
+}
+
+.form-control {
+  border-radius: 27px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+
+.dropdown-search-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  background: #d7e0e8;
+  width: 100%;
+  height: 28px;
+  z-index: 10;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.navbar-nav--feature {
+  color: red;
+}
+
+.navbar-nav-position_menu > li:last-child {
+  padding: 20px 0;
+  color: #a6a6a6;
+}
+
+#navbar-nav--color {
+  color: red;
+}
+
+#num-item {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #248ddc;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 10px;
+  margin: 0 10px;
+}
+
+.subscribe-email--color {
+  &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder {
+    color: #ffffff;
+  }
+}
+
+.dropdown-search-input {
+  &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder {
+    color: #ffffff;
+  }
+}
